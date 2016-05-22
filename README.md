@@ -2,7 +2,7 @@
 [![NPM version](https://img.shields.io/npm/v/wavedrom.svg)](https://www.npmjs.org/package/wavedrom)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Analytics](https://ga-beacon.appspot.com/UA-21660728-4/wavedrom/readme)](http://wavedrom.com)
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=wavedrom&url=http%3A%2F%2Fwavedrom.com&title=WaveDrom&language=&tags=github&category=software)
+<span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=J6WR5E7TJGSY2&lc=US&item_name=WaveDrom&item_number=github&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 
 [EDITOR](http://wavedrom.com/editor.html) | [TUTORIAL](http://wavedrom.com/tutorial.html)
 
@@ -36,7 +36,13 @@ There are 3 steps to insert **WaveDrom** diagrams directly into your page:
 
 ```html
 <script src="http://wavedrom.com/skins/default.js" type="text/javascript"></script>
-<script src="http://wavedrom.com/WaveDrom.js" type="text/javascript"></script>
+<script src="http://wavedrom.com/wavedrom.min.js" type="text/javascript"></script>
+```
+or from CDN:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/1.3.0/skins/default.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/1.3.0/wavedrom.min.js" type="text/javascript"></script>
 ```
 
 2) Set ``onload`` event for HTML body.
@@ -77,6 +83,23 @@ Blogger integration: (http://wavedrom.blogspot.com/2011/08/wavedrom-digital-timi
 
 [WaveDromEditor](http://wavedrom.com/editor.html)
 is online real-time editor of digital timing diagrams based on **WaveDrom** engine and **WaveJSON** format.
+
+## Standalone WaveDromEditor
+
+### Windows
+1. Download latest `wavedrom-editor-v1.3.0-win-{ia32|ia64}.zip` release from here: [releases](https://github.com/wavedrom/wavedrom.github.io/releases)
+2. Unzip it into working direactory.
+3. run the editor: `WaveDromEditor.exe`
+
+### Linux
+1. Download latest `wavedrom-editor-v1.3.0-linux-{ia32|x64}.tar.gz` release from here: [releases](https://github.com/wavedrom/wavedrom.github.io/releases)
+2. unzip-untar the package: `tar -xvzf wavedrom-editor-v1.3.0-linux-x64.tar.gz`
+3. run the editor: `./WaveDromEditor/linux64/WaveDromEditor`
+
+## OSX
+1. Download latest `wavedrom-editor-v1.3.0-osx-ia64.zip` release:
+2. unzip
+3. run
 
 ## Community
 
